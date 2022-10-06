@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* utility classes */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+
+}
+
+.text-primary {
+    color: orange;
+}
+
+.head1 {
+    font-size: 2rem;
+    padding: 3rem;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    background: orange;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: orange;
+    background: white;
+}
+
+.pra1 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar ul {
+    flex-direction: row-reverse;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover {
+    background: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+#showcase {
+    background: #333 url('mo.jpg') no-repeat center center/cover;
+    height: 100vh;
+
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#sec1 .items {
+
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 55px;
+}
+
+#space {
+    margin: 0 2rem;
+}
+
+.item {
+    text-align: center;
+    box-shadow: 5px 5px 10px 0px rgb(0 0 4 / 20%);
+    border-radius: 20px;
+    padding: 20px 30px;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.item p {
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.head2 {
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    text-shadow: 1px 1px 1px rgb(69, 69, 148);
+}
+
+.head3 {
+    font-size: large;
+
+}
+
+.item i {
+    font-size: large;
+    background: orange;
+    padding: 0.7rem;
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+
+.head4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+
+}
+
+.sec2 {
+    display: flex;
+
+}
+
+.sec2 div {
+    flex: 1;
+}
+
+.img {
+    background: url('tree.jpg') no-repeat center center/cover;
+
+}
+
+.content {
+    padding: 2rem;
+}
+
+.pi {
+    line-height: 1.5;
+    padding-bottom: 22px;
+}
+
+.sec2 ul li {
+    list-style: none;
+    padding: 6px 10px;
+    border-bottom: #444 dotted 1px;
+}
+
+.sec3 .items {
+    display: flex;
+    justify-content: center;
+}
+
+.sec3 .items img {
+    width: 250px;
+    height: 170px;
+    padding: 13px;
+    border-radius: 80px 18px;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.contact-form {
+    flex-basis: 600px; 
+}
+
+.contact-form label {
+    display: block;
+    margin: 1rem 0;
+}
+
+.contact-form input, textarea {
+     width: 100%;
+     padding: 0.5rem;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.main-footer i {
+    font-size: large;
+}
