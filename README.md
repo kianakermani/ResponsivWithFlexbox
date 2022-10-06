@@ -1,3 +1,3 @@
 # ResponsivWithFlexbox
 
-https://kianakermani.github.io/ResponsivWithFlexbox/
+https://kianakermani.github.io/ResponsiveWithFlexbox/
